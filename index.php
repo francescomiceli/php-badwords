@@ -3,18 +3,19 @@
 <?php
 
   $replace = $_GET['replace'];
-  $a = 'Marco è uno' . $replace;
+  $a = 'Marco è uno stupido';
   
 
 ?>
 <!-- Stampa var $a -->
 <?php
-  echo $a;
+  echo $a . '<br>';
 ?>
+
 <!-- Stampa lunghezza -->
 <?php
   $lunghezza = strlen($a);
-  echo $lunghezza;
+  echo $lunghezza . '<br/>';
 ?>
 <!-- Sostituzione replace con asterischi -->
 <?php
@@ -22,12 +23,6 @@
   echo $change;
 ?>
 
-
-<?php
-  
-  var_dump($_GET);
-
-?>
 
 
 
